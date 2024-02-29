@@ -4,7 +4,7 @@ import Quiz from "./components/Quiz";
 import "./styles/App.css";
 import "./styles/Question.css";
 
-const url = 'http://localhost:3000/quiz'
+const url = 'https://api-quiz-mu.vercel.app/quiz'
 
 function App() {
   const [theme, setTheme] = useState(null)

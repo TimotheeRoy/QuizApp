@@ -1,0 +1,8 @@
+body{
+    background-color: #fefee2;
+}
+
+.quiz.shake {
+    animation: shake 0.5s;
+}
+

@@ -1,0 +1,34 @@
+h2{
+    font-size: 1.5rem;
+    margin: 3rem;
+}
+
+ul{
+    margin: 10vh;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+li{
+    padding: 1rem;
+    margin: 1vh;
+    background: radial-gradient(circle, #E65F5C 100% ,#FF6B6B 100% );
+    border-radius: 10px;
+    border: solid 2px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+}
+
+li:hover{
+    cursor: pointer;
+    border: solid 2px transparent;
+    transform: rotate(1turn);
+    transition: transform 1s ease;
+}
